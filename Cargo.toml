@@ -1,0 +1,11 @@
+[package]
+name = "filehash"
+version = "0.1.0"
+authors = ["Bart Massey <bart@cs.pdx.edu>"]
+
+[dependencies]
+crc = "1.8"
+
+[[bin]]
+name = "filehash"
+path = "filehash.rs"
